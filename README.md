@@ -10,9 +10,10 @@ pip install git+https://github.com/Nubiral-EMU/NU00021-SENTRY-OBSERVABILITY.git
 ```
 # Varibles de entorno
 Configura las siguientes variables de entorno en tu entorno de ejecución:
+- `SERVICE_NAME`: El nombre del servicio que se está instrumentando.
 - `SENTRY_DSN`: La URL DSN de tu proyecto en Sentry.
 - `SENTRY_DEBUG`: Habilita el modo de depuración (por ejemplo, "true" para habilitar).
-- `SENTRY_ENVIRONMENT`: El entorno en el que se está ejecutando la aplicación (por ejemplo, "development", "production").
+- `ENVIRONMENT`: El entorno en el que se está ejecutando la aplicación (por ejemplo, "development", "production").
 
 ## Uso
 
